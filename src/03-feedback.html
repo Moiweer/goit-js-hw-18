@@ -11,13 +11,15 @@
   <body>
     <p><a href="index.html">Go back</a></p>
 
-    <form class="feedback-form" autocomplete="off">
+    <form class="feedback-form js-feedback-form">
+      <!-- autocomplete="off" -->
       <label>
-        Email
-        <input type="email" name="email" autofocus />
+        <b>Name</b>
+        <input type="text" name="name" value="Anonimus" />
+        <!-- autofocus -->
       </label>
       <label>
-        Message
+        <b>Message</b>
         <textarea name="message" rows="8"></textarea>
       </label>
       <button type="submit">Submit</button>
